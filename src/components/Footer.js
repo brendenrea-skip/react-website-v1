@@ -1,12 +1,12 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
+// import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
+      {/* <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
           Join the Adventure newsletter to receive our best vacation deals
         </p>
@@ -24,8 +24,8 @@ function Footer() {
             <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
         </div>
-      </section>
-      <div class='footer-links'>
+      </section> */}
+      {/* <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
@@ -59,25 +59,25 @@ function Footer() {
             <Link to='/'>Twitter</Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
+              BrightLinePainting
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>BrightLinePainting © 2022</small>
           <div class='social-icons'>
-            <Link
+            {/* <Link
               class='social-icon-link facebook'
               to='/'
               target='_blank'
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
-            </Link>
+            </Link> */}
             <Link
               class='social-icon-link instagram'
               to='/'
@@ -86,7 +86,7 @@ function Footer() {
             >
               <i class='fab fa-instagram' />
             </Link>
-            <Link
+            {/* <Link
               class='social-icon-link youtube'
               to='/'
               target='_blank'
@@ -101,7 +101,7 @@ function Footer() {
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
-            </Link>
+            </Link> */}
             <Link
               class='social-icon-link twitter'
               to='/'

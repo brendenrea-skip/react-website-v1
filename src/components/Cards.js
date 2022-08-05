@@ -5,7 +5,7 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      {/* <h1>Check out these EPIC Destinations!</h1> */}
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -15,7 +15,7 @@ function Cards() {
               label='Services'
               path='/services'
             />
-            <CardItem
+            {/* <CardItem
               src='images/img-2.jpg'
               text='Travel through the Islands of Bali in a Private Cruise'
               label='Luxury'
@@ -40,7 +40,7 @@ function Cards() {
               text='Ride through the Sahara Desert on a guided camel tour'
               label='Adrenaline'
               path='/sign-up'
-            />
+            /> */}
           </ul>
         </div>
       </div>
